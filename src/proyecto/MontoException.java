@@ -1,10 +1,10 @@
-package procesos;
+package proyecto;
 
 public class MontoException extends Exception{
     String mensaje;
 
     public MontoException() {
-        this.mensaje = mensaje;
+        this.mensaje = "Hola";
     }
 
     public MontoException(String message, String mensaje) {

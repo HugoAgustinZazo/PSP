@@ -1,22 +1,18 @@
-package procesos;
+package proyecto;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ProgramaTransacciones {
+public class Transaccion {
+
     static ArrayList<Cliente> cli = new ArrayList<>();
 
-    public static void main(String[] args) {
-
-        Scanner teclado = new Scanner(System.in);
-        System.out.println("Indica el nombre del archivo que vayas a leer");
-        String fichero = teclado.next();
-
-        System.out.println("Indica el número de procesos que quieres que se ejecuten");
-        int numproc = teclado.nextInt();
-
-
+    public static void main(String[] args) throws MontoException {
+        String fichero = args[0];
         try (BufferedReader reader = new BufferedReader(new FileReader(fichero))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -42,18 +38,22 @@ public class ProgramaTransacciones {
         } catch (MontoException e) {
             throw new RuntimeException(e);
         }
+        convertirMoneda();
+        comprobarFraude();
+
     }
     public static  void comprobarFraude() throws MontoException {
         for(Cliente cl : cli){
 
-          try {
-              if (cl.getMonto() > 50000) {
-                  throw new MontoException();
-              }
+            try {
+                if (cl.getMonto() > 50000) {
+                    cl.setMoneda(cl.getMoneda()+"-ALERTA");
+                    throw new MontoException();
+                }
 
-          }catch (MontoException e){
-              System.err.println("[ERROR] Fraude detectado en la transacción ID: "+cl.getId()+" Monto: "+cl.getMonto());
-          }
+            }catch (MontoException e){
+                System.err.println("[ERROR] Fraude detectado en la transacción ID: "+cl.getId()+" Monto: "+cl.getMonto());
+            }
         }
     }
 
@@ -67,4 +67,5 @@ public class ProgramaTransacciones {
 
         }
     }
+
 }

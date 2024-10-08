@@ -1,4 +1,4 @@
-package procesos;
+package proyecto;
 
 public class Cliente {
 int id;
