@@ -55,12 +55,11 @@ String moneda;
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", fecha='" + fecha + '\'' +
                 ", monto=" + monto +
-                ", moneda='" + moneda + '\'' +
-                '}';
+                ", moneda='" + moneda + '\'';
     }
 }
