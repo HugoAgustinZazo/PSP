@@ -1,19 +1,15 @@
-package proyecto;
-
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Transaccion {
 
-    static ArrayList<Cliente> cli = new ArrayList<>();
-
-    public static void main(String[] args) throws MontoException {
+    public static void main(String[] args)  {
+        System.out.println("empezando el programa");
         String fichero = args[0];
+        System.out.println(fichero);
+        ArrayList<Cliente> cli = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(fichero))) {
+            System.out.println("Archivo leido");
             String line;
             while ((line = reader.readLine()) != null) {
                 if(line.contains("ID")){
@@ -29,40 +25,36 @@ public class Transaccion {
                 }
 
             }
-            convertirMoneda();
-            comprobarFraude();
+            convertirMoneda(cli);
+            comprobarFraude(cli);
+            for(Cliente cl:cli){
+                System.out.println(cl.toString());
+            }
         } catch (FileNotFoundException e) {
-
+            System.out.println(e);
         } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (MontoException e) {
+            System.out.println(e);
             throw new RuntimeException(e);
         }
-        convertirMoneda();
-        comprobarFraude();
 
     }
-    public static  void comprobarFraude() throws MontoException {
+    public static  void comprobarFraude(ArrayList <Cliente> cli)  {
         for(Cliente cl : cli){
-
-            try {
                 if (cl.getMonto() > 50000) {
                     cl.setMoneda(cl.getMoneda()+"-ALERTA");
-                    throw new MontoException();
+                    System.err.println("[ERROR] Fraude detectado en la transacción ID: "+cl.getId()+" Monto: "+cl.getMonto());
                 }
-
-            }catch (MontoException e){
-                System.err.println("[ERROR] Fraude detectado en la transacción ID: "+cl.getId()+" Monto: "+cl.getMonto());
-            }
         }
     }
 
-    public static void convertirMoneda(){
+    public static void convertirMoneda(ArrayList <Cliente> cli){
         for(Cliente cl : cli){
             if(cl.getMoneda().equalsIgnoreCase("USD")){
                 cl.setMonto(cl.getMonto()*0.85);
+                cl.setMoneda("EUR");
             }else if(cl.getMoneda().equalsIgnoreCase("GBP")){
                 cl.setMonto(cl.getMonto()*1.17);
+                cl.setMoneda("EUR");
             }
 
         }

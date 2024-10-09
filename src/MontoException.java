@@ -1,5 +1,3 @@
-package proyecto;
-
 public class MontoException extends Exception{
     String mensaje;
 

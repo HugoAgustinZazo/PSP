@@ -1,5 +1,3 @@
-package proyecto;
-
 public class Cliente {
 int id;
 String nombre;
@@ -53,5 +51,16 @@ String moneda;
 
     public void setMoneda(String moneda) {
         this.moneda = moneda;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", fecha='" + fecha + '\'' +
+                ", monto=" + monto +
+                ", moneda='" + moneda + '\'' +
+                '}';
     }
 }
