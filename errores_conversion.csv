@@ -81,45 +81,45 @@
 [ERROR] Fraude detectado en la transaccion ID: 156 Monto: 67465.6
 [ERROR] Fraude detectado en la transaccion ID: 157 Monto: 90350.79
 [ERROR] Fraude detectado en la transaccion ID: 158 Monto: 68410.97
-[ERROR] Fraude detectado en la transaccion ID: 202 Monto: 77257.91
 [ERROR] Fraude detectado en la transaccion ID: 160 Monto: 51401.17
 [ERROR] Fraude detectado en la transaccion ID: 161 Monto: 53550.38
-[ERROR] Fraude detectado en la transaccion ID: 207 Monto: 87866.24
 [ERROR] Fraude detectado en la transaccion ID: 165 Monto: 80648.95
 [ERROR] Fraude detectado en la transaccion ID: 166 Monto: 66380.87
-[ERROR] Fraude detectado en la transaccion ID: 209 Monto: 74043.65
 [ERROR] Fraude detectado en la transaccion ID: 167 Monto: 94800.71
 [ERROR] Fraude detectado en la transaccion ID: 168 Monto: 78252.46
 [ERROR] Fraude detectado en la transaccion ID: 169 Monto: 85400.3
-[ERROR] Fraude detectado en la transaccion ID: 211 Monto: 84331.23
 [ERROR] Fraude detectado en la transaccion ID: 170 Monto: 55156.93
-[ERROR] Fraude detectado en la transaccion ID: 216 Monto: 79067.02
 [ERROR] Fraude detectado en la transaccion ID: 173 Monto: 68311.83
-[ERROR] Fraude detectado en la transaccion ID: 217 Monto: 88197.08
-[ERROR] Fraude detectado en la transaccion ID: 219 Monto: 65383.47
 [ERROR] Fraude detectado en la transaccion ID: 175 Monto: 54672.04
-[ERROR] Fraude detectado en la transaccion ID: 220 Monto: 51401.19
 [ERROR] Fraude detectado en la transaccion ID: 176 Monto: 50240.28
-[ERROR] Fraude detectado en la transaccion ID: 223 Monto: 88298.26
 [ERROR] Fraude detectado en la transaccion ID: 179 Monto: 90668.3
 [ERROR] Fraude detectado en la transaccion ID: 180 Monto: 55603.2
-[ERROR] Fraude detectado en la transaccion ID: 227 Monto: 75001.39
 [ERROR] Fraude detectado en la transaccion ID: 181 Monto: 74815.38
 [ERROR] Fraude detectado en la transaccion ID: 183 Monto: 57470.02
-[ERROR] Fraude detectado en la transaccion ID: 233 Monto: 91366.06
-[ERROR] Fraude detectado en la transaccion ID: 236 Monto: 86658.78
 [ERROR] Fraude detectado en la transaccion ID: 189 Monto: 61916.24
 [ERROR] Fraude detectado en la transaccion ID: 191 Monto: 75873.67
-[ERROR] Fraude detectado en la transaccion ID: 239 Monto: 62114.17
-[ERROR] Fraude detectado en la transaccion ID: 240 Monto: 62011.73
 [ERROR] Fraude detectado en la transaccion ID: 192 Monto: 107611.76
 [ERROR] Fraude detectado en la transaccion ID: 193 Monto: 95869.75
-[ERROR] Fraude detectado en la transaccion ID: 245 Monto: 62535.1
 [ERROR] Fraude detectado en la transaccion ID: 194 Monto: 53074.72
 [ERROR] Fraude detectado en la transaccion ID: 195 Monto: 57995.04
-[ERROR] Fraude detectado en la transaccion ID: 248 Monto: 85179.84
 [ERROR] Fraude detectado en la transaccion ID: 198 Monto: 83076.04
 [ERROR] Fraude detectado en la transaccion ID: 200 Monto: 61221.21
+[ERROR] Fraude detectado en la transaccion ID: 202 Monto: 77257.91
+[ERROR] Fraude detectado en la transaccion ID: 207 Monto: 87866.24
+[ERROR] Fraude detectado en la transaccion ID: 209 Monto: 74043.65
+[ERROR] Fraude detectado en la transaccion ID: 211 Monto: 84331.23
+[ERROR] Fraude detectado en la transaccion ID: 216 Monto: 79067.02
+[ERROR] Fraude detectado en la transaccion ID: 217 Monto: 88197.08
+[ERROR] Fraude detectado en la transaccion ID: 219 Monto: 65383.47
+[ERROR] Fraude detectado en la transaccion ID: 220 Monto: 51401.19
+[ERROR] Fraude detectado en la transaccion ID: 223 Monto: 88298.26
+[ERROR] Fraude detectado en la transaccion ID: 227 Monto: 75001.39
+[ERROR] Fraude detectado en la transaccion ID: 233 Monto: 91366.06
+[ERROR] Fraude detectado en la transaccion ID: 236 Monto: 86658.78
+[ERROR] Fraude detectado en la transaccion ID: 239 Monto: 62114.17
+[ERROR] Fraude detectado en la transaccion ID: 240 Monto: 62011.73
+[ERROR] Fraude detectado en la transaccion ID: 245 Monto: 62535.1
+[ERROR] Fraude detectado en la transaccion ID: 248 Monto: 85179.84
 [ERROR] Fraude detectado en la transaccion ID: 252 Monto: 57045.92
 [ERROR] Fraude detectado en la transaccion ID: 255 Monto: 72552.36
 [ERROR] Fraude detectado en la transaccion ID: 256 Monto: 75087.49
@@ -139,19 +139,19 @@
 [ERROR] Fraude detectado en la transaccion ID: 286 Monto: 114085.11
 [ERROR] Fraude detectado en la transaccion ID: 287 Monto: 96337.28
 [ERROR] Fraude detectado en la transaccion ID: 289 Monto: 63118.48
-[ERROR] Fraude detectado en la transaccion ID: 303 Monto: 62305.38
 [ERROR] Fraude detectado en la transaccion ID: 290 Monto: 94146.81
-[ERROR] Fraude detectado en la transaccion ID: 304 Monto: 61949.92
 [ERROR] Fraude detectado en la transaccion ID: 291 Monto: 55490.29
-[ERROR] Fraude detectado en la transaccion ID: 305 Monto: 62065.21
 [ERROR] Fraude detectado en la transaccion ID: 292 Monto: 57611.54
-[ERROR] Fraude detectado en la transaccion ID: 306 Monto: 80625.7
-[ERROR] Fraude detectado en la transaccion ID: 308 Monto: 82268.42
 [ERROR] Fraude detectado en la transaccion ID: 296 Monto: 94386.93
-[ERROR] Fraude detectado en la transaccion ID: 313 Monto: 67194.66
-[ERROR] Fraude detectado en la transaccion ID: 315 Monto: 83781.35
 [ERROR] Fraude detectado en la transaccion ID: 299 Monto: 107155.61
 [ERROR] Fraude detectado en la transaccion ID: 300 Monto: 74681.6
+[ERROR] Fraude detectado en la transaccion ID: 303 Monto: 62305.38
+[ERROR] Fraude detectado en la transaccion ID: 304 Monto: 61949.92
+[ERROR] Fraude detectado en la transaccion ID: 305 Monto: 62065.21
+[ERROR] Fraude detectado en la transaccion ID: 306 Monto: 80625.7
+[ERROR] Fraude detectado en la transaccion ID: 308 Monto: 82268.42
+[ERROR] Fraude detectado en la transaccion ID: 313 Monto: 67194.66
+[ERROR] Fraude detectado en la transaccion ID: 315 Monto: 83781.35
 [ERROR] Fraude detectado en la transaccion ID: 318 Monto: 60597.85
 [ERROR] Fraude detectado en la transaccion ID: 319 Monto: 61549.18
 [ERROR] Fraude detectado en la transaccion ID: 320 Monto: 64117.03
@@ -242,25 +242,3 @@
 [ERROR] Fraude detectado en la transaccion ID: 496 Monto: 114083.1
 [ERROR] Fraude detectado en la transaccion ID: 497 Monto: 56579.37
 [ERROR] Fraude detectado en la transaccion ID: 500 Monto: 73843.69
-Exception in thread "main" java.lang.RuntimeException: java.nio.file.NoSuchFileException: ficheroProceso4.csv
-	at Transaccion.main(Transaccion.java:61)
-Caused by: java.nio.file.NoSuchFileException: ficheroProceso4.csv
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
-	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
-	at java.base/java.nio.file.Files.write(Files.java:3516)
-	at Transaccion.main(Transaccion.java:47)
-Exception in thread "main" java.lang.RuntimeException: java.nio.file.NoSuchFileException: ficheroProceso5.csv
-	at Transaccion.main(Transaccion.java:61)
-Caused by: java.nio.file.NoSuchFileException: ficheroProceso5.csv
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
-	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
-	at java.base/java.nio.file.Files.write(Files.java:3516)
-	at Transaccion.main(Transaccion.java:48)

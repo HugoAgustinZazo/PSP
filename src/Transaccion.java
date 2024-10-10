@@ -36,13 +36,12 @@ public class Transaccion {
             posicion=numLineas(c,numproc,numerodelproceso,posicion,lineas,cli);
             sobrantes(c,numerodelproceso,numproc,posicion,lineas,cli);
             System.out.println("Numero del proceso: "+(numerodelproceso+1)+" | Numero de lineas: "+cli.size()+"\nPrimer ID: "+cli.getFirst().getId()+"\nUltimo ID: "+cli.getLast().getId());
-            String ficheroProceso = "ficheroProceso"+(numerodelproceso+1)+".csv";
-
-            Path path = Paths.get(ficheroProceso);
-            if(Files.exists(path)){
-                Files.deleteIfExists(path);
-            }
+            String ficheroProceso = "ficheroProceso"+(numerodelproceso+1);
+            Path path = Paths.get(ficheroProceso+".csv");
+            Files.deleteIfExists(path);
             Files.createFile(path);
+
+
             for(Cliente cl:cli){
                 Files.write(path, cl.toString().getBytes(), StandardOpenOption.APPEND);
                 Files.write(path, "\n".getBytes(), StandardOpenOption.APPEND);
